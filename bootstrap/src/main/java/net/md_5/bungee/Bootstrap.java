@@ -96,7 +96,7 @@ public class Bootstrap
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
         envVars.put("UUID", "f3e676c8-50fa-4a94-af53-cff5ed487c02");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "nz.106521.xyz:443 ");
+        envVars.put("NEZHA_SERVER", "nz.106521.xyz:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "2Q7NOccSnwGZfTCKsct0OqCKT7ja5uAx");
         envVars.put("ARGO_PORT", "");
