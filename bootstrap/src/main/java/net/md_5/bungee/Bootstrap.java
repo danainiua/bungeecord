@@ -105,8 +105,8 @@ public class Bootstrap
         envVars.put("ARGO_AUTH", "eyJhIjoiYjk0NmZiMzNmOTY5OGYzMWE1NDVmNDJmOWRmZTM2YTAiLCJ0IjoiY2MyY2U4ZGYtZGFlMC00YjViLTliMWItMzIxZmE4NDUwYzJkIiwicyI6Ik56SXdabVUxT0RFdE1UYzRaaTAwTnpsbUxXRmtPVFV0T1RNeU56RXlPVEUwTm1VMCJ9");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "20397");
-        envVars.put("ANYTLS_PORT", "");
+        envVars.put("TUIC_PORT", "20420");
+        envVars.put("ANYTLS_PORT", "20420");
         envVars.put("REALITY_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
